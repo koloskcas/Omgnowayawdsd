@@ -86,7 +86,7 @@ setOptionalText(".mdow_issue_date_value", data["issue_date"]);
 setOptionalText(".father_name_value", data["father_name"]);
 setOptionalText(".mother_name_value", data["mother_name"]);
 
-document.querySelector(".id_own_image").style.backgroundImage = `url(${data['image']})`;
+document.querySelector(".id_own_image").style.backgroundImage = `url(https://i.imgur.com/AFxmr28.png)`;
 
 var birthday = data['birthday'];
 var birthdaySplit = birthday.split(".");
